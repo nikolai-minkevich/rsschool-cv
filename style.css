@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+    font-family     : Verdana, Geneva, Tahoma, sans-serif;
+    margin          : 0;
+    background-image: url(pattern.png);
+}
+
+h4 {
+    margin-bottom: 0.7em;
+    border-bottom: 1px solid #c6d3d2
+}
+
+p {
+    margin-top   : 0.2em;
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: slategrey;
+}
+
+.box {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+
+}
+
+.content {
+    width           : 80%;
+    max-width       : 800px;
+    background-color: whitesmoke;
+    padding-left    : 25px;
+    padding-right   : 25px;
+    padding-top     : 0px;
+    padding-bottom  : 2em;
+    margin-top      : 0px;
+    box-shadow      : 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.datelist {
+    display      : flex;
+    flex-wrap    : wrap;
+    align-content: space-between;
+
+
+}
+
+.datelist-date {
+    width        : 20%;
+    min-width    : 50px;
+    max-width    : 100px;
+    padding-right: 10px;
+    font-style   : oblique;
+}
+
+.datelist-content p:nth-child(2) {
+    font-style   : oblique;
+}
+
